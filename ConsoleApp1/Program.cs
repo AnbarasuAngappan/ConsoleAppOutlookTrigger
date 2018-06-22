@@ -32,7 +32,6 @@ namespace ConsoleApp1
             private void ThisAddIn_Startup(object sender, System.EventArgs e)
             {
                 Outlook.Application OutlookApplication1 = new Outlook.Application();
-
                 outlookNameSpace = OutlookApplication1.GetNamespace("MAPI");
 
                 //Messaging Application Programming Interface (MAPI) is a messaging architecture and a Component Object Model based 
